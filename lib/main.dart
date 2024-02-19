@@ -8,7 +8,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 void main() {
-  // Gemini.init(apiKey: const String.fromEnvironment('AIzaSyAX42UWfC7Y6jpLHudTn57OHMBYwBmJbB4'), enableDebugging: true);
+  // Gemini.init(apiKey: const String.fromEnvironment('API_KEY'), enableDebugging: true);
   runApp(const MyApp());
 }
 
