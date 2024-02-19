@@ -42,7 +42,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final model = GenerativeModel(
-      model: 'gemini-pro', apiKey: 'AIzaSyAX42UWfC7Y6jpLHudTn57OHMBYwBmJbB4');
+      model: 'gemini-pro', apiKey: 'API_KEY');
   var res = '';
   bool check = false;
   TextEditingController questionController = TextEditingController();
